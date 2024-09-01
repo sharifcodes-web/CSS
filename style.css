@@ -22,6 +22,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-attachment: fixed;
+}
+nav{
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 .container{
     display: flex;
@@ -57,4 +64,67 @@
     /* transform: rotate(360deg); */
     /* transform: rotatey(360deg); */
     transform: skew(50deg);
+}
+
+.sectionContant{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: green;
+    overflow: hidden;
+}
+.red{
+    width: 350px;
+    height: 350px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-130%,-50%);
+}
+/* -------------- form design is start from here -----------  */
+.formSection{
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formSection form {
+    width: 400px;
+    padding: 30px;
+    background: gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.formSection form h1{
+    color: white;
+}
+/* .formSection form input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    text-align: center;
+} */
+.formSection form input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid White;
+    padding: 5px;
+    color: white;
+}
+.formSection form input::placeholder{
+    color: white;
+}
+.formSection form input[type=submit]{
+    background-color: white;
+    color: gray;
+    font-weight: bold;
+    border-radius: 5px;
 }
