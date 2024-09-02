@@ -29,6 +29,7 @@ nav{
     position: fixed;
     top: 0;
     z-index: 10;
+    text-align: center;
 }
 .container{
     display: flex;
@@ -112,7 +113,7 @@ nav{
     text-align: center;
 } */
 .formSection form input{
-    border: 0;
+    border: 0;  
     outline: 0;
     background: transparent;
     border-bottom: 2px solid White;

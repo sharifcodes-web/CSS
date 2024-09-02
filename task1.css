@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif ;
+}
+.main{
+
+}
+ nav{
+    color: green;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+h3{
+       text-align: center;
+}
+.container{
+    display: flex;
+     flex-direction:column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center; 
+    background-image: url(https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8=);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    background-attachment:fixed ;
+
+}   
+.container h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: grey;
+}
+.container p{
+    text-align: center;
+    color: burlywood;
+}
+.container button{
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    background: transparent;
+    font-weight: bolder;
+    border: 1px solid red;
+}
+.container button:hover{
+    background-color: red;
+}
+.container button:active{
+    /* transform: scale(); */
+    /* transform: scaley(5); */
+    /* transform: skew(45deg); */
+    transform: rotate(180deg);
+}
+
+/* --------------------- */
+/* this is header section */
+.sectionContent{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: green;
+    overflow: hidden;
+}
+.red{
+
+}
