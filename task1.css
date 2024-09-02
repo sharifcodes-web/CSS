@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: serif ;
+    transition: .5s;
+    box-sizing: border-box;
 }
 .main{
 
@@ -59,13 +61,22 @@ h3{
 
 /* --------------------- */
 /* this is header section */
-.sectionContent{
+.sectionContant{
     width: 100%;
     min-height: 100vh;
     position: relative;
-    background: green;
+    background: rgb(209, 184, 184);
     overflow: hidden;
+    margin: 5px;
+    border-radius: 50px;
 }
 .red{
-
+    width: 350px;
+    height: 350px;
+    background: rgba(255, 0, 0, 0.746);
+    border-radius: 190px;
+    position: absolute;
+    top: 50%;
+    left:50% ;
+    transform: translate(-50%,-50%);
 }
