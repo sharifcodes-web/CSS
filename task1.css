@@ -80,3 +80,49 @@ h3{
     left:50% ;
     transform: translate(-50%,-50%);
 }
+/* -----------------------------------
+FORM IS STARTING FORM HERE */
+.formSection{
+    width:100%;
+    min-height: 100vh;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formSection form{
+    width: 400px;
+    padding: 30px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+}
+.formSection form h1 {
+    color: #fff;
+}
+/* .formSection form input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    text-align: center;
+}. */
+ .formSection input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid white;
+    padding: 5px;
+    color: white;
+ }
+ .formSection form input::placeholder{
+    color: #fff;
+ }
+ .formSection form input[type=submit]{
+    background-color: #fff;
+    color: grey;
+    font-weight: bold;
+    border-radius: 5px;
+ }
